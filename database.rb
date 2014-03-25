@@ -48,7 +48,7 @@ begin
 			FOREIGN KEY (d_id) REFERENCES Drink(d_id))"
 	
 	db.execute "INSERT INTO Ingredient VALUES(1,'Amaretto',56,'Liqueur');"
-	db.execute "INSERT INTO Ingredient VALUES(2,'White Cr me de Cacao',50,'Liqueur');"
+  db.execute "INSERT INTO Ingredient VALUES(2,'White Creme de Cacao',50,'Liqueur');"
 	db.execute "INSERT INTO Ingredient VALUES(3,'Grenadine',0,'Mixer');"
 	db.execute "INSERT INTO Ingredient VALUES(4,'Coffee Liqueur',40,'Liqueur');"
 	db.execute "INSERT INTO Ingredient VALUES(5,'Light Rum',80,'Rum');"
@@ -216,6 +216,9 @@ begin
 	db.execute "INSERT INTO Pump VALUES(2,'','',NULL,NULL)"
 	db.execute "INSERT INTO Pump VALUES(3,'','',NULL,NULL)"
 	db.execute "INSERT INTO Pump VALUES(4,'','',NULL,NULL)"
+  db.execute "INSERT INTO Pump VALUES(5,'','',NULL,NULL)"
+  db.execute "INSERT INTO Pump VALUES(6,'','',NULL,NULL)"
+  db.execute "INSERT INTO Pump VALUES(7,'','',NULL,NULL)"
 	db.execute "INSERT INTO Pump VALUES(8,'','',NULL,NULL)"
 	db.execute "INSERT INTO Pump VALUES(9,'','',NULL,NULL)"
 	db.execute "INSERT INTO Pump VALUES(10,'','',NULL,NULL)"
